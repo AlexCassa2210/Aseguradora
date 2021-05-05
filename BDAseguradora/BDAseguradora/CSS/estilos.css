@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*GENERALES HTML*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#Logos {
+    
+  
+   
+    margin-right:2%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem; 
+    margin: 0 auto;
+}
+.body1 {
+    background: url(../IMG/Aseguradora.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+/*GLOBALES*/
+.boton {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    /*display: block;*/
+    max-width: 40%;
+    margin-left: 15px;
+    flex: 0 0 100%;
+}
+.boton-rojo{
+    background-color:#561919;
+}
+.button {
+    background-color: #561919;
+    padding: 10px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 5px solid;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #561919;
+    text-decoration:none;
+}
+
+.button.transparente {
+    background-color: transparent;
+    border: 4px solid #ffffff;
+}
+
+.button.transparente:hover {
+    border: 4px solid #561919;
+    background-color: #ffffff;
+}
+
+
+
+/** Navegacion HEADER **/
+.navegacion a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 2.2rem;
+    display: block;
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1.8;
+}
+
+.navegacion a:last-of-type { 
+    margin: 0;
+}
+
+.navegacion a:hover {
+    color: #71B100;
+}
+
+/*HERO*/
+.imagen-hero {
+    background-image: url(../IMG/Aseguradora.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 41.5rem;
+    width: 85.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-hero {
+    flex: 0 0 50%;
+    color: #ffffff;
+    margin-top: 300px;
+}
+
+.contenido-hero p {
+    font-size: 1.6rem;
+    margin-left: 20px;
+}
+.contenido-hero h2 {
+    font-size: 2rem;
+    margin-left: 15px;
+}
+
+
+/*LOGIN*/
+.contenedor-form {
+    background: rgba(0,0,0,.7);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    
+    /*padding: 40px;*/
+}
+
+
+.contenedor-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+.contenedor-form input[type="text"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #808080;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+
+    .contenedor-form input[type="text"]:focus,
+    .contenedor-form input[type="password"]:focus,
+    .contenedor-form input[type="email"]:focus {
+        border-bottom: 4px solid rgba(255, 0, 0, 0.46);
+    }
+
+    .contenedor-form input[type="text"]:hover,
+    .contenedor-form input[type="password"]:hover,
+    .contenedor-form input[type="email"]:hover {
+        border-bottom: 4px solid rgba(255, 0, 0, 0.46);
+    }
+
+
+
+.contenedor-form input[type="submit"] {
+    background: #808080;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="submit"]:hover {
+    background: rgba(255, 0, 0, 0.46);
+}
+
+
+
+    .contenedor-form .formulario {
+        display: block;
+        padding: 40px;
+    }
+
+.contenedor-form .formulario:nth-child(2) {
+    display: block;
+}
